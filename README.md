@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 # Dark-Theme-ERPNext
-=======
-## Themes
-
-Custom Themes
+## Applying Custom CSS file to existing ERPNext.
+====
 
 #### License
 
 MIT
->>>>>>> First Commit
