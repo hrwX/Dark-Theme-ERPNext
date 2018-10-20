@@ -44,6 +44,7 @@
 }
 .input-with-feedback, .form-control, .input-sm, .like-disabled-input{
     background-color: rgba(80, 80, 80, 1) !important;
+    border-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
 /*.dropdown-help, */.dropdown-menu, .input-group{
@@ -154,4 +155,7 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .grid-footer{
     background-color: rgba(66, 66, 66, 1) !important;
     color: white !important;
+}
+.form-grid{
+    border: 1px solid rgba(80, 80, 80, 1) !important;
 }
