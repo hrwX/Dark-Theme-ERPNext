@@ -42,7 +42,7 @@
 .form-section:not(:last-child), .form-inner-toolbar {
     border-bottom: 1px solid rgba(80, 80, 80, 1) !important;
 }
-.input-with-feedback, .form-control, .input-sm{
+.input-with-feedback, .form-control, .input-sm, .like-disabled-input{
     background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
