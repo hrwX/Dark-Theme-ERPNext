@@ -3,7 +3,7 @@
     background-color: rgba(66, 66, 66, 1) !important;
     border-color: rgba(66, 66, 66, 1) !important;
 }
-#navbar-search, .awesomplete > ul > li {
+#navbar-search, .awesomplete > ul > li, .awesomplete > ul {
     background-color: rgba(33, 33, 33, 1) !important;
     color: white !important;
 }
