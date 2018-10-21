@@ -66,6 +66,10 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .a, .module-section, .module-section-link {
     color: white !important;
 }
+.form-dashboard{
+    background-color: rgba(66, 66, 66, 1) !important;
+    color: white !important;
+}
 /* Left Side List and Button Background */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     background-color: rgba(66, 66, 66, 1) !important;
