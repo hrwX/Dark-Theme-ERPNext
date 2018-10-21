@@ -5,9 +5,10 @@
 }
 #navbar-search, .awesomplete > ul > li, .awesomplete > ul, .awesomplete {
     background-color: rgba(33, 33, 33, 1) !important;
+    border: 1px solid rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
-.awesomplete > ul > li[aria-selected=true]{
+.awesomplete > ul > li[aria-selected=true], .awesomplete > ul > li:hover{
     background-color: rgba(66, 66, 66, 1) !important;
     color: white !important;
 }
