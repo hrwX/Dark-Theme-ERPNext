@@ -99,8 +99,9 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 }
 .list-row-container {
     border-bottom: 1px solid rgba(80, 80, 80, 1) !important;
+    
 }
-.list-row-container:hover {
+.list-row-container:hover, .list-row-container[aria-selected=true] {
     color: rgba(66, 66, 66, 1) !important;
 }
 .list-row-head {
