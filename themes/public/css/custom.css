@@ -1,7 +1,13 @@
+*{
+    color: white !important;
+}
 /* Navbar and Dropdown */
 .navbar, .navbar-default{
     background-color: rgba(66, 66, 66, 1) !important;
     border-color: rgba(66, 66, 66, 1) !important;
+}
+.navbar a{
+    color: white !important;
 }
 #navbar-search, .awesomplete > ul > li, .awesomplete > ul, .awesomplete {
     background-color: rgba(33, 33, 33, 1) !important;
