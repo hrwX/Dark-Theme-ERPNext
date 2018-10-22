@@ -68,9 +68,10 @@
 .dropdown-menu > li > a, .title-text, .a, .p, .h4, .h3, .h2, .h1 {
     color: white !important;
 }
-/*.dropdown-menu > li {
-    border: 1px solid rgba(80, 80, 80, 1) !important;
-}*/
+.dropdown-menu > li:hover {
+    background-color: rgba(66, 66, 66, 1) !important;
+    color: white !important;
+}
 .divider{
     background-color: rgba(80, 80, 80, 1) !important;
 }
