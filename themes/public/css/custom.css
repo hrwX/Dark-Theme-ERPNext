@@ -76,7 +76,7 @@
 .dropdown-menu > li > a, .title-text, .a, .p, .h4, .h3, .h2, .h1 {
     color: white !important;
 }
-.dropdown-menu > li:hover, .navbar-nav > li > .dropdown-menu > li > a:hover {
+.dropdown-menu > li:hover, .dropdown-menu > li > a:hover, .navbar-nav > li > .dropdown-menu > li > a:hover {
     background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
