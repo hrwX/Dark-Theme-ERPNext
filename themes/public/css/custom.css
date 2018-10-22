@@ -27,7 +27,7 @@
     color: white !important;
 }
 .awesomplete > ul > li[aria-selected=true], .awesomplete > ul > li:hover{
-    background-color: rgba(66, 66, 66, 1) !important;
+    background-color:  rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
 .standard-image{
@@ -64,20 +64,20 @@
 .form-section:not(:last-child), .form-inner-toolbar {
     border-bottom: 1px solid rgba(80, 80, 80, 1) !important;
 }
-.input-with-feedback, .form-control, .input-sm, .like-disabled-input{
+.input-with-feedback, .form-control, .input-sm, .like-disabled-input, #input-help{
     background-color: rgba(80, 80, 80, 1) !important;
     border-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
-/*.dropdown-help, */.dropdown-menu, .input-group{
-    background-color: rgba(66, 66, 66, 1) !important;
+.dropdown-menu, .input-group{
+    background-color: rgba(33, 33, 33, 1) !important;
     border: 1px solid rgba(80, 80, 80, 1) !important;
 }
 .dropdown-menu > li > a, .title-text, .a, .p, .h4, .h3, .h2, .h1 {
     color: white !important;
 }
 .dropdown-menu > li:hover, .navbar-nav > li > .dropdown-menu > li > a:hover {
-    background-color: rgba(66, 66, 66, 1) !important;
+    background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
 .divider{
@@ -115,7 +115,7 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .layout-side-section .sidebar-menu > li > a {
     color: white !important;
 }
-.sidebar-menu .badge {
+.sidebar-menu .badge, .badge {
     background-color: rgba(66, 66, 66, 1) !important;
 }
 /* filter list */
@@ -133,11 +133,8 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .list-row-container {
     border-bottom: 1px solid rgba(80, 80, 80, 1) !important;
 }
-/**/.list-row-container > div:hover, .list-row-container > div > div:hover, .list-row-container[aria-selected=true] {
-    color: rgba(66, 66, 66, 1) !important;
-}
-.list-row:hover{
-    color: rgba(66, 66, 66, 1) !important;
+.list-row:hover, .list-row-container > div > div:hover {
+    background-color: rgba(66, 66, 66, 1) !important;
 }
 .list-row-head {
     background-color: rgba(33, 33, 33, 1) !important;
@@ -168,6 +165,12 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
     background-color: rgba(33, 33, 33, 1) !important;
     border: 1px solid rgba(80, 80, 80, 1) !important;
 }
+.ql-bubble .ql-editor {
+    border-color: rgba(80, 80, 80, 1) !important;
+}
+.timeline-item.notification-content::before {
+    background-color: rgba(80, 80, 80, 1) !important;
+}
 /* Scroll to top */
 .scroll-to-top {
     background-color: #fafbfc;
@@ -184,6 +187,10 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 }
 .msgprint pre{
     background-color: rgba(66, 66, 66, 1) !important;
+    color: white !important;
+}
+kbd {
+    background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
 /* Child Table */
@@ -216,5 +223,10 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .alert-message{
     background-color: rgba(66, 66, 66, 1) !important;
     border-color: rgba(80, 80, 80, 1) !important;
+    color: white !important;
+}
+/* Toolbar */
+.ql-toolbar.ql-snow {
+    background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
