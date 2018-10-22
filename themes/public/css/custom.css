@@ -33,6 +33,9 @@
 .standard-image{
     background-color: rgba(33, 33, 33, 1) !important;
 }
+.navbar-default .navbar-nav > .open > a:active{
+    background-color: rgba(33, 33, 33, 1) !important;
+}
 /* Main Section */
 .content, .page-content, .hero-and-content{
     background-color: rgba(33, 33, 33, 1) !important;
