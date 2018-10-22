@@ -106,6 +106,9 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .layout-side-section .sidebar-menu > li > a {
     color: white !important;
 }
+.sidebar-menu .badge {
+    background-color: rgba(66, 66, 66, 1) !important;
+}
 /* filter list */
 .filter-list {
     background-color: rgba(66, 66, 66, 1) !important;
