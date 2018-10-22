@@ -171,7 +171,7 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .ql-bubble .ql-editor {
     border-color: rgba(80, 80, 80, 1) !important;
 }
-.timeline-item.notification-content::before {
+.timeline-item.notification-content::before, .timeline-new-email::before{
     background-color: rgba(80, 80, 80, 1) !important;
 }
 /* Scroll to top */
@@ -232,4 +232,7 @@ kbd {
 .ql-toolbar.ql-snow {
     background-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
+}
+.note-editor{
+    border-color: rgba(80, 80, 80, 1) !important;
 }
