@@ -182,6 +182,10 @@ a.grey, .sidebar-section a, .control-value a, .data-row a{
 .modal-title, .msgprint {
     color: white !important;
 }
+.msgprint pre{
+    background-color: rgba(66, 66, 66, 1) !important;
+    color: white !important;
+}
 /* Child Table */
 .grid-row, .grid-row > .row .col {
     background-color: rgba(66, 66, 66, 1) !important;
