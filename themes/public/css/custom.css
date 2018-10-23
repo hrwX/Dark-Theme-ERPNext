@@ -236,3 +236,7 @@ kbd {
 .note-editor{
     border-color: rgba(80, 80, 80, 1) !important;
 }
+/* Setup Page*/
+.setup-wizard-slide {
+    border-color: rgba(80, 80, 80, 1) !important;
+}
