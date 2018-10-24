@@ -71,7 +71,7 @@
     border-bottom: 1px solid rgba(80, 80, 80, 1) !important;
 }
 .input-with-feedback, .form-control, .input-sm, .like-disabled-input, #input-help{
-    background-color: rgba(80, 80, 80, 1) !important;
+    background-color: rgba(66, 66, 66, 1) !important;
     border-color: rgba(80, 80, 80, 1) !important;
     color: white !important;
 }
