@@ -6,6 +6,8 @@ frappe.ui.form.on('Themes', {
 
 	},
 	theme: function(frm){
+		var text = frappe.add_theme();
+		console.log(text);
 		frappe.remove_theme();
 	}
 });
