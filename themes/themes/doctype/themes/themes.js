@@ -5,9 +5,4 @@ frappe.ui.form.on('Themes', {
 	refresh: function(frm) {
 
 	},
-	theme: function(frm){
-		var text = frappe.add_theme();
-		console.log(text);
-		frappe.remove_theme();
-	}
 });
